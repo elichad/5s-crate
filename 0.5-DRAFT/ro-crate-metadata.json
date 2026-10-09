@@ -1,5 +1,5 @@
 {
-    "@context": "https://w3id.org/ro/crate/1.2-DRAFT/context",
+    "@context": "https://w3id.org/ro/crate/1.2",
     "@graph": [
         {
             "@type": "CreativeWork",
@@ -11,7 +11,7 @@
                 "@id": "http://spdx.org/licenses/CC0-1.0"
             },
             "conformsTo": {
-                "@id": "https://w3id.org/ro/crate/1.2-DRAFT"
+                "@id": "https://w3id.org/ro/crate/1.2"
             }
         },
         {
@@ -114,7 +114,7 @@
                 },
                 {
                     "@id": "#hasExampleResult"
-                },                
+                },
                 {
                     "@id": "#usesSHP"
                 }
@@ -156,7 +156,7 @@
             ],
             "distribution": {
                 "@id": "https://trefx.uk/5s-crate/0.5-DRAFT/example-request.bagit.zip"
-            }            
+            }
         },
         {
             "@id": "https://trefx.uk/5s-crate/0.5-DRAFT/example-result/data/",
@@ -196,7 +196,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate"
             }
-        },        
+        },
         {
             "@id": "https://trefx.uk/5s-crate/0.5-DRAFT/example-request/data/ro-crate-metadata.json",
             "@type": "CreativeWork",
@@ -346,7 +346,6 @@
                 "@id": "https://trefx.uk/5s-crate/0.5-DRAFT/example-result/data/"
             }
         },
-
         {
             "@id": "http://www.w3.org/ns/dx/prof/role/example",
             "@type": [
